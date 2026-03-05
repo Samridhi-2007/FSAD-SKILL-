@@ -38,7 +38,7 @@ public class App {
         Product deleteProduct = session.get(Product.class,2);
         session.delete(deleteProduct);
         session.getTransaction().commit();
-        System.out.println("Product deleted");
+        System.out.println("Product deleted !!");
 
         session.close();
     }
